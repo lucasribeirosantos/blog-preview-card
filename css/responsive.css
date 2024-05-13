@@ -1,10 +1,10 @@
 @media (max-width: 425px) {
     .main .container {
-        max-width: 320px;
+        max-width: 300px;
     }
 
     .main .container .learning {
-        width: 27%;
+        width: 17%;
         font-size: 13px;
     }
 
@@ -29,11 +29,11 @@
 
 @media (max-width:320px) {
     .main .container {
-        max-width: 280px;
+        max-width: 240px;
     }
 
     .main .container .learning {
-        width: 33%;
+        width: 22%;
         font-size: 13px;
     }
 
