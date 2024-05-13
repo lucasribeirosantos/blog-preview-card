@@ -1,0 +1,63 @@
+@media (max-width: 425px) {
+    .main .container {
+        max-width: 320px;
+    }
+
+    .main .container .learning {
+        width: 27%;
+        font-size: 13px;
+    }
+
+    .main .container .published {
+        font-size: 13px;
+    }
+
+    .main .container .main-info .title {
+        font-size: 20px;
+    }
+
+    .main .container .main-info .text {
+        font-size: 14px;
+    }
+
+    
+    .main .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+@media (max-width:320px) {
+    .main .container {
+        max-width: 280px;
+    }
+
+    .main .container .learning {
+        width: 33%;
+        font-size: 13px;
+    }
+
+    .main .container .published {
+        font-size: 13px;
+    }
+    
+    .main .container .main-info .text {
+        font-size: 14px;
+    }
+
+    .main .container .main-info .title {
+        font-size: 18px;
+    }
+
+    .main .container .author .profile-name {
+        font-size: 13px;
+    }
+
+    .main .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+
+

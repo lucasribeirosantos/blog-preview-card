@@ -1,0 +1,88 @@
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    flex-direction: column;
+}
+
+.main .container {
+    background-color: #fff;
+    box-shadow: 7px 7px 1px #000;
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    padding: 21px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    font-family: "Figtree", sans-serif;
+}
+
+.main .container .main-image .image {
+    width: 100%;
+    align-self: center;
+    border-radius: 0.7rem;
+}
+
+.main .container .learning {
+    padding: 7px 11px;
+    background-color: hsl(47, 88%, 63%);
+    width: 25%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.main .container .published {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 12px;
+    color: hsl(0, 0%, 7%);
+}
+
+.main .container .main-info .title {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: left;
+    color: hsl(0, 0%, 7%);
+    margin-top: 15px;
+}
+
+.main .container .main-info .text {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 17px;
+    color: hsl(0, 0%, 50%);
+    line-height: 22px;
+}
+
+.main .container .author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main .container .author .profile-image {
+    width: 32px;
+    margin-right: 10px;
+}
+
+.main .container .author .profile-name {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.main .attribution {
+    margin-top: 20px;
+    font-family: "Figtree", sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+.main .attribution a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
